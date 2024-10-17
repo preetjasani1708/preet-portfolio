@@ -25,10 +25,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body>
+        <header className="p-5 bg-gray-800 text-white">
+          <nav className="flex justify-between">
+            <a href="/" className="text-lg font-semibold">
+              Home
+            </a>
+            <a href="/contact" className="text-lg font-semibold">
+              Contact
+            </a>
+          </nav>
+        </header>
+        <main className="p-6">{children}</main>
+        <footer className="p-5 bg-gray-800 text-white text-center">
+          © 2024 My Portfolio
+        </footer>
       </body>
     </html>
   );
