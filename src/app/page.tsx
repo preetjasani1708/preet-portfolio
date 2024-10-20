@@ -6,13 +6,13 @@ export default function Home() {
           Welcome to My Portfolio
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-          Hi, I'm a passionate web developer with experience in building
+          {`Hi, I'm a passionate web developer with experience in building
           interactive, responsive websites. I love solving challenges and
-          bringing ideas to life.
+          bringing ideas to life.`}
         </p>
         <p className="text-lg text-gray-600 mb-6">
-          Explore my portfolio and feel free to reach out if you're interested
-          in working together.
+          {`Explore my portfolio and feel free to reach out if you're interested
+          in working together.`}
         </p>
         <a
           href="/contact"
